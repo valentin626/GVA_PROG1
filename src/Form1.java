@@ -141,7 +141,7 @@ public class Form1 extends javax.swing.JFrame {
         max = Integer.parseInt(jTable1.getValueAt(0, 0).toString());
 
         for (int i = 0; i < jTable1.getRowCount(); i++) {
-            for (int j = 0; j < jTable1.getColumnCount(); j--) {
+            for (int j = 0; j < jTable1.getColumnCount(); j++) {
                 if (Integer.parseInt(jTable1.getValueAt(i, j).toString()) > max) {
                     max = Integer.parseInt(jTable1.getValueAt(i, j).toString());
                 }
